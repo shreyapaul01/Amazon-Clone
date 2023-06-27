@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar {
+   height: 60px;
+   background-color: #0f1111;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.nav-logo {
+    height: 50px;
+    width: 180px;
+}
+.logo {
+    background-image: url(A-images/a-logo.png);
+    background-size: cover;
+    display: flexbox;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+}
+.India {
+    font-size: 1.5 rem;
+    margin-left: 8px;
+}
+.Deliver {
+    color:#cccccc;
+    font-size: 0.6 rem;
+    margin-left: 12px;
+}
+.nav-search { 
+    display: flex;
+    justify-content: space-evenly;
+     width: 650px;
+    height: 40px;
+}
+.nav-search:hover{
+border:2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+     width: 50px;
+     border: none;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     text-align: center;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 2.5 rem;
+    color: black;
+}
+span{
+    font-size: 0.5 rem;
+}
+.nav-second{
+    font-size: 0.85 rem;
+    font-weight: 700;
+}
+.fa-cart-shopping{
+    font-size: 30px;
+}
+.nav-cart{
+font-weight: 700;
+}
+.panel{
+    height:40px;
+    background-color: #222f3e;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+    font-size: 0.85 rem;
+    }
+.panel-options{
+    width: 70%;
+}
+.panel-deal{
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url(A-images/BG-amazon.jpg);
+    height: 320px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-msg{
+    background-color: white;
+    color:black;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.hero-msg a {
+color: #007185;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+   
+}
+.box {
+height: 375px;
+margin-top: 15px;
+width: 23%;
+background-color: white;
+padding: 20px 0 px 15px;
+margin-top:15px;
+}
+.box-img{
+    height: 310px;
+    margin-top: 14 px;
+    margin-bottom: 14 px;
+    background-size: cover;
+}
+.box-content{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color:white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:6 px;
+}
+.foot-panel2{
+    height: 320px;
+    background-color: #222f3e;
+    color: #ddd;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.foot-panel2 a{
+    display: block;
+    margin-bottom: 10px;
+}
+.foot-panel2 ul{
+  
+    margin-top: 40px;
+}
+.foot-panel2 p{
+    font-weight: 700;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.foot-panel3{
+    background-color: #222f3e;
+    border-top: 1.5px solid #ddd ;
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-logo{
+    background-image: url(A-images/a-logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: #ddd;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pages a{
+    margin-right: 14px;
+    margin-top: 17px;
+    font-size: small;
+    font-weight: 545;
+    margin-bottom: 5px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    font-weight: 545;
+}
+
+
+
+    
